@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1D6EC164-7C38-489A-85C3-8D339DDC3020}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F9E5253D-8DEF-4F49-B1B0-19AE7A7E9066}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Leoxia.Site", "src\Leoxia.Site\Leoxia.Site.xproj", "{E3B17BFE-A4F0-4A26-B9A0-630EEF2FE528}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3B17BFE-A4F0-4A26-B9A0-630EEF2FE528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3B17BFE-A4F0-4A26-B9A0-630EEF2FE528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3B17BFE-A4F0-4A26-B9A0-630EEF2FE528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3B17BFE-A4F0-4A26-B9A0-630EEF2FE528}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E3B17BFE-A4F0-4A26-B9A0-630EEF2FE528} = {1D6EC164-7C38-489A-85C3-8D339DDC3020}
+	EndGlobalSection
+EndGlobal
