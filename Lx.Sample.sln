@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1D6EC164-7C38-489A-85C3-8D339DDC3020}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F9E5253D-8DEF-4F49-B1B0-19AE7A7E9066}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{216CFA79-7927-438A-B474-6EE1825E65A8}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Lx.SampleLib", "src\Lx.SampleLib\Lx.SampleLib.xproj", "{7CB24CD1-DB1C-4148-84CB-A4718D6C2408}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Lx.SampleLib.Test", "test\Lx.SampleLib.Test\Lx.SampleLib.Test.xproj", "{9F98BA61-AB4B-4F18-B660-C54AC4270A62}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Lx.SampleWebApp", "src\Lx.SampleWebApp\Lx.SampleWebApp.xproj", "{796E89A8-75B2-4BB2-A073-D4594E9E1C4B}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Lx.SampleConsole", "src\Lx.SampleConsole\Lx.SampleConsole.xproj", "{DFB7F12F-C2C4-49A7-9D2F-12B6E5DA0A66}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Lx.SampleConsole.Test", "test\Lx.SampleConsole.Test\Lx.SampleConsole.Test.xproj", "{8B185250-2B4C-496B-9D33-B9143A496AB4}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Lx.SampleWebApp.Test", "test\Lx.SampleWebApp.Test\Lx.SampleWebApp.Test.xproj", "{8ABF4D78-E261-458F-BE35-AEC1933DDB80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CB24CD1-DB1C-4148-84CB-A4718D6C2408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CB24CD1-DB1C-4148-84CB-A4718D6C2408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CB24CD1-DB1C-4148-84CB-A4718D6C2408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CB24CD1-DB1C-4148-84CB-A4718D6C2408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F98BA61-AB4B-4F18-B660-C54AC4270A62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F98BA61-AB4B-4F18-B660-C54AC4270A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F98BA61-AB4B-4F18-B660-C54AC4270A62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F98BA61-AB4B-4F18-B660-C54AC4270A62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{796E89A8-75B2-4BB2-A073-D4594E9E1C4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{796E89A8-75B2-4BB2-A073-D4594E9E1C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{796E89A8-75B2-4BB2-A073-D4594E9E1C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{796E89A8-75B2-4BB2-A073-D4594E9E1C4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFB7F12F-C2C4-49A7-9D2F-12B6E5DA0A66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFB7F12F-C2C4-49A7-9D2F-12B6E5DA0A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFB7F12F-C2C4-49A7-9D2F-12B6E5DA0A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFB7F12F-C2C4-49A7-9D2F-12B6E5DA0A66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B185250-2B4C-496B-9D33-B9143A496AB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B185250-2B4C-496B-9D33-B9143A496AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B185250-2B4C-496B-9D33-B9143A496AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B185250-2B4C-496B-9D33-B9143A496AB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ABF4D78-E261-458F-BE35-AEC1933DDB80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ABF4D78-E261-458F-BE35-AEC1933DDB80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ABF4D78-E261-458F-BE35-AEC1933DDB80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ABF4D78-E261-458F-BE35-AEC1933DDB80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7CB24CD1-DB1C-4148-84CB-A4718D6C2408} = {1D6EC164-7C38-489A-85C3-8D339DDC3020}
+		{9F98BA61-AB4B-4F18-B660-C54AC4270A62} = {216CFA79-7927-438A-B474-6EE1825E65A8}
+		{796E89A8-75B2-4BB2-A073-D4594E9E1C4B} = {1D6EC164-7C38-489A-85C3-8D339DDC3020}
+		{DFB7F12F-C2C4-49A7-9D2F-12B6E5DA0A66} = {1D6EC164-7C38-489A-85C3-8D339DDC3020}
+		{8B185250-2B4C-496B-9D33-B9143A496AB4} = {216CFA79-7927-438A-B474-6EE1825E65A8}
+		{8ABF4D78-E261-458F-BE35-AEC1933DDB80} = {216CFA79-7927-438A-B474-6EE1825E65A8}
+	EndGlobalSection
+EndGlobal
