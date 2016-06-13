@@ -13,6 +13,7 @@ using Microsoft.Extensions.Logging;
 using Lx.SampleWebApp.Data;
 using Lx.SampleWebApp.Models;
 using Lx.SampleWebApp.Services;
+using Lx.SampleLib;
 
 namespace Lx.SampleWebApp
 {
